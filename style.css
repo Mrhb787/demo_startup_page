@@ -201,7 +201,7 @@ html
 {
     text-align: center;
     padding : 20px;
-    font-size: 8vh;
+    font-size: 8vw;
     font-family:"sofia";
     color: white;
     border-bottom: 2px solid white;
@@ -210,14 +210,14 @@ html
 
 .vision-text
 {
-    font-size: 4vh;
+    font-size: 4vw;
     color:floralwhite;
     font-family: "Advent Pro";
     padding : 20px;
 }
 
 .quote{
-    font-size:4.5vh;
+    font-size:4.5vw;
     text-align: center;
     transition: 1s;
 }
@@ -247,7 +247,7 @@ html
 
 .cr
 {
-    font-size: 2em;
+    font-size: 2vw;
     padding : 20px;
     text-align: center;
     margin : 10px;
@@ -273,7 +273,7 @@ html
 
 .cover-logo
 {
-    font-size:2em;
+    font-size:2vw;
     text-align: center;
     padding-top: 50%;
     padding-left: 10px;
@@ -436,7 +436,7 @@ input[type=submit]:hover {
 .footer-logo-text
 {
     color: white;
-    font-size: 2.8em;
+    font-size: 2.8vw;
     font-family: sans-serif;
     margin: 10px;
     border-bottom : 2px solid #243e4f;
@@ -484,7 +484,7 @@ input[type=submit]:hover {
 {
     text-align: center;
     margin:20px;
-    font-size:2.8em;
+    font-size:2.8vw;
     font-family:"Advent Pro";
     color: white;
     font-weight: bold;
@@ -494,7 +494,7 @@ li
 {
     list-style: none;
     margin: 10px;
-    font-size: 2.5em;
+    font-size: 2.5vw;
     font-weight: 100;
 }
 
