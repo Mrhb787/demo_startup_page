@@ -201,7 +201,7 @@ html
 {
     text-align: center;
     padding : 20px;
-    font-size: 4vw;
+    font-size: 4.8vw;
     font-family:"sofia";
     color: white;
     border-bottom: 2px solid white;
@@ -210,14 +210,14 @@ html
 
 .vision-text
 {
-    font-size: 2vw;
+    font-size: 2.8vw;
     color:floralwhite;
     font-family: "Advent Pro";
     padding : 20px;
 }
 
 .quote{
-    font-size:2.1vw;
+    font-size:2.8vw;
     text-align: center;
     transition: 1s;
 }
@@ -381,6 +381,7 @@ input[type=submit]:hover {
   display: none;
     padding-bottom: 50px;
     margin-top: -50px;
+    margin-bottom: -40px;
 }
 
 /* bottom container */
@@ -394,6 +395,9 @@ input[type=submit]:hover {
 @media screen and (max-width: 650px) {
     .btn,input{
         width : 50%;
+        font-size: 2.56vw;
+        padding: 10px;
+        margin : 3px 0px;
     }
   .col {
     width: 100%;
@@ -407,8 +411,14 @@ input[type=submit]:hover {
   .hide-md-lg {
     display: block;
     text-align: center;
-      margin-top:2vw;
+    margin-top:20px;
+    font-size: 3.2vw;  
   }
+    .cover-logo
+    {
+        padding-top : 80%;
+        font-size:4vw;
+    }
 }
 
 .footer
@@ -486,7 +496,7 @@ input[type=submit]:hover {
 {
     text-align: center;
     margin:20px;
-    font-size:2vw;
+    font-size:2.5vh;
     font-family:"Advent Pro";
     color: white;
     font-weight: bold;
@@ -496,7 +506,7 @@ li
 {
     list-style: none;
     margin: 10px;
-    font-size: 1.8vw;
+    font-size: 2.5vh;
     font-weight: 100;
 }
 
