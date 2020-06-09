@@ -1,196 +1,218 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
-        
-        <title>CodEase.com</title>
-        
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
-        <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        
-        
-                    <script>
-                       function openNav() {document.getElementById("mySidenav").style.width = "250px";}
-                       function closeNav() {document.getElementById("mySidenav").style.width = "0px";}
-                    </script>
-        
-    </head>
-    
-    <body>
-        
-        <div class="header">
-            
-            <!Animated Background.......>
-            <div class="area">
-                
-                <div id="mySidenav" class="sidenav">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="#">Login</a>
-                <a href="#">Clients</a>
-                <a href="#">Courses</a>
-                <a href="#">Careers</a>
-                <a href="#">About Us</a>
-                <a href="#">Community</a>
-                </div>
-                <span onclick="openNav()" style=" font-size: 40px;">&#9776;</span>
-                        
-                <div class="header-logo">
-                CODEASE
-                </div>
-                <ul class="circles">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div >
-            <!...........>
-            
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0" />
+
+    <title>CodEase.com</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Sofia"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Advent Pro"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0px";
+      }
+    </script>
+  </head>
+
+  <body>
+    <div class="header">
+      <!Animated Background.......>
+      <div class="area">
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <a href="#">Login</a>
+          <a href="#">Clients</a>
+          <a href="#">Courses</a>
+          <a href="#">Careers</a>
+          <a href="#">About Us</a>
+          <a href="#">Community</a>
         </div>
-        
-        <div class="body">
-            <div class="vision">
-                <div class="vision-logo">
-                    Our Vision
-                </div>
-                
-                <div class="vision-text">
-                    We are a group of some best Coders and Developers in the Current Market with a vision to make a difference in society. Our Focus is to provide high grade Education to create a Meaningfull and skilled society. If you want to become a good coder or a developer we got your back. We provide Free as well as paid education to courses. We are happy to have you on our family. 
-                    
-                    <p class="quote">"Don't Make Excuse Make a code than can Resolve that excuse".</p>
-                </div>
-            </div>
-            
-            <div class="courses">
-                <div class="cr box">Front-End Developer</div>
-                <div class="cr box">Back-End Developer</div>
-                <div class="cr box">Full Stack Developer</div>
-                <div class="cr box">Basic Programming</div>
-                <div class="cr box">Data Structures and Algorithms</div>
-                <div class="cr box">Advanced Coding Concepts</div>
-                <div class="cr box">Learn Python</div>
-                <div class="cr box">Data-Analysis and ML with Python</div>
-            </div>
+        <span onclick="openNav()" id="sideNavButton" style="font-size: 40px;">&#9776;</span>
+
+        <div class="header-logo">
+          CODEASE
         </div>
-        
-        <div class="cover">
-            
-            <div class="cover-logo">
-                WELCOME TO THE FAMILY &#128522;
-                
-                <div class="cover-text">
-                Join us By Signing Up and become a part of this happy Family where we learn to educate !!
-                </div>
-                
-            </div>
-            
-            <div class="login-form">
-                <form action="/action_page.php">
-                    <div class="row">
-                        <h2 style="text-align:center; font-size:4vh; margin: 10px;">Login with Social Media or Manually</h2>
-                        <div class="vl">
-                            <span class="vl-innertext">or</span>
-                        </div>
+        <ul class="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <!...........>
+    </div>
 
-                    <div class="col">
-                        <a href="#" class="fb btn">
-                        <i class="fa fa-facebook fa-fw"></i> Login with Facebook
-                        </a>
-                        <a href="#" class="twitter btn">
-                        <i class="fa fa-twitter fa-fw"></i> Login with Twitter
-                        </a>
-                        <a href="#" class="google btn">
-                        <i class="fa fa-google fa-fw"></i> Login with Google+
-                        </a>
-                    </div>
-
-                        <div class="col">
-                        <div class="hide-md-lg">
-                        <p>Or sign in manually:</p>
-                        </div>
-
-                        <input type="text" name="username" placeholder="Username" required>
-                        <input type="password" name="password" placeholder="Password" required>
-                        <input type="submit" value="Login">
-                        </div>
-
-                    </div>
-                </form>
-            </div>     
-            
-            <div class="bottom-container">
-                <div class="row">
-                    <div class="col">
-                        <a href="#" style="color:white" class="btn">Sign up</a>
-                    </div>
-                    <div class="col">
-                        <a href="#" style="color:white" class="btn">Forgot password?</a>
-                    </div>
-                </div>
-                </div>
+    <div class="body">
+      <div class="vision">
+        <div class="vision-logo">
+          Our Vision
         </div>
-        
-        <div class="footer"> <!#243E8E>
-            <div class="footer-logo">
-            <div class="footer-logo-icon">
-                CODEASE
-            </div>
-                <div class="footer-logo-text">
-                    contact@codease.com
-                </div>
-                
-                <div class="footer-icons">
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-youtube"></a>
-                    <a href="#" class="fa fa-linkedin"></a>
-                </div>
-            </div>
-            
-            <div class="footer-text">
-                <p>Developer Resources</p>
-                <ul>
-                    <li>Developers Blog</li>
-                    <li>Learn to code By Competitive Programming</li>
-                    <li>Developers Wiki</li>
-                    <li>Hackathon</li>
-                </ul>
-            </div>
-            
-            <div class="footer-text">
-                <p>For Business</p>
-                <ul>
-                    <li>Assess Developers</li>
-                    <li>Conduct Hackathon</li>
-                    <li>Remote Interviews</li>
-                    <li>University Talent</li>
-                </ul>
 
-            </div>
-            
-            <div class="footer-text">
-                <p>Company</p>
-                <ul>
-                    <li>About Us</li>
-                    <li>Press</li>
-                    <li>Careers</li>
-                    <li>Contact Us</li>
-                    <li>Technical Support</li>
-                </ul>
+        <div class="vision-text">
+          We are a group of some best Coders and Developers in the Current
+          Market with a vision to make a difference in society. Our Focus is to
+          provide high grade Education to create a Meaningfull and skilled
+          society. If you want to become a good coder or a developer we got your
+          back. We provide Free as well as paid education to courses. We are
+          happy to have you on our family.
 
-            </div>
-            
+          <p class="quote">
+            "Don't Make Excuse Make a code than can Resolve that excuse".
+          </p>
         </div>
-    </body>
-    
+      </div>
 
+      <div class="courses">
+        <div class="cr box">Front-End Developer</div>
+        <div class="cr box">Back-End Developer</div>
+        <div class="cr box">Full Stack Developer</div>
+        <div class="cr box">Basic Programming</div>
+        <div class="cr box">Data Structures and Algorithms</div>
+        <div class="cr box">Advanced Coding Concepts</div>
+        <div class="cr box">Learn Python</div>
+        <div class="cr box">Data-Analysis and ML with Python</div>
+      </div>
+    </div>
+
+    <div class="cover">
+      <div class="cover-logo">
+        WELCOME TO THE FAMILY &#128522;
+
+        <div class="cover-text">
+          Join us By Signing Up and become a part of this happy Family where we
+          learn to educate !!
+        </div>
+      </div>
+
+      <div class="login-form">
+        <form action="/action_page.php">
+          <div class="row">
+            <h2 style="text-align: center; font-size: 4vh; margin: 10px;">
+              Login with Social Media or Manually
+            </h2>
+            <div class="vl">
+              <span class="vl-innertext">or</span>
+            </div>
+
+            <div class="col">
+              <a href="#" class="fb btn">
+                <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+              </a>
+              <a href="#" class="twitter btn">
+                <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+              </a>
+              <a href="#" class="google btn">
+                <i class="fa fa-google fa-fw"></i> Login with Google+
+              </a>
+            </div>
+
+            <div class="col">
+              <div class="hide-md-lg">
+                <p>Or sign in manually:</p>
+              </div>
+
+              <input
+                type="text"
+                name="username"
+                placeholder="Username"
+                required
+              />
+              <input
+                type="password"
+                name="password"
+                placeholder="Password"
+                required
+              />
+              <input type="submit" value="Login" />
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="bottom-container">
+        <div class="row">
+          <div class="col">
+            <a href="#" style="color: white;" class="btn">Sign up</a>
+          </div>
+          <div class="col">
+            <a href="#" style="color: white;" class="btn">Forgot password?</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <!#243E8E>
+      <div class="footer-logo">
+        <div class="footer-logo-icon">
+          CODEASE
+        </div>
+        <div class="footer-logo-text">
+          contact@codease.com
+        </div>
+
+        <div class="footer-icons">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-youtube"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+        </div>
+      </div>
+
+      <div class="footer-text">
+        <p>Developer Resources</p>
+        <ul>
+          <li>Developers Blog</li>
+          <li>Learn to code By Competitive Programming</li>
+          <li>Developers Wiki</li>
+          <li>Hackathon</li>
+        </ul>
+      </div>
+
+      <div class="footer-text">
+        <p>For Business</p>
+        <ul>
+          <li>Assess Developers</li>
+          <li>Conduct Hackathon</li>
+          <li>Remote Interviews</li>
+          <li>University Talent</li>
+        </ul>
+      </div>
+
+      <div class="footer-text">
+        <p>Company</p>
+        <ul>
+          <li>About Us</li>
+          <li>Press</li>
+          <li>Careers</li>
+          <li>Contact Us</li>
+          <li>Technical Support</li>
+        </ul>
+      </div>
+    </div>
+  </body>
 </html>

@@ -1,17 +1,13 @@
-*{
-    margin:0px;
-    padding:0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-html
-{
-    scroll-behavior: smooth;
-}
-.area{
-    background: #4e54c8;  
-    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
-    width: 100%;
-    height:100vh;
+.area {
+  background: #4e54c8;
+  background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
+  width: 100%;
+  height: 100vh;
 }
 
 .sidenav {
@@ -27,6 +23,9 @@ html
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
+#sideNavButton {
+  cursor: pointer;
+}
 /* The navigation menu links */
 .sidenav a {
   padding: 8px 8px 8px 32px;
@@ -53,11 +52,15 @@ html
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
 }
 
-.header-logo{
+.header-logo {
   background-color: white;
   color: black;
   font-size: 10vw;
@@ -65,238 +68,219 @@ html
   margin: 0 auto;
   padding: 10px;
   width: 50%;
-  text-align: center; 
-  position: absolute; 
-  top: 50%; 
-  left: 50%; 
-  transform: translate(-50%, -50%); 
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   mix-blend-mode: screen;
-  }
-
-.circles{
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
 }
 
-.circles li{
-    position: absolute;
-    display: block;
-    list-style: none;
-    width: 20px;
-    height: 20px;
-    background: rgba(255, 255, 255, 0.2);
-    animation: animate 25s linear infinite;
-    bottom: -150px;
-    
+.circles {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
-.circles li:nth-child(1){
-    left: 25%;
-    width: 80px;
-    height: 80px;
-    animation-delay: 0s;
+.circles li {
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  animation: animate 25s linear infinite;
+  bottom: -150px;
 }
 
-
-.circles li:nth-child(2){
-    left: 10%;
-    width: 20px;
-    height: 20px;
-    animation-delay: 2s;
-    animation-duration: 12s;
+.circles li:nth-child(1) {
+  left: 25%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
 }
 
-.circles li:nth-child(3){
-    left: 70%;
-    width: 20px;
-    height: 20px;
-    animation-delay: 4s;
+.circles li:nth-child(2) {
+  left: 10%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 2s;
+  animation-duration: 12s;
 }
 
-.circles li:nth-child(4){
-    left: 40%;
-    width: 60px;
-    height: 60px;
-    animation-delay: 0s;
-    animation-duration: 18s;
+.circles li:nth-child(3) {
+  left: 70%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 4s;
 }
 
-.circles li:nth-child(5){
-    left: 65%;
-    width: 20px;
-    height: 20px;
-    animation-delay: 0s;
+.circles li:nth-child(4) {
+  left: 40%;
+  width: 60px;
+  height: 60px;
+  animation-delay: 0s;
+  animation-duration: 18s;
 }
 
-.circles li:nth-child(6){
-    left: 75%;
-    width: 110px;
-    height: 110px;
-    animation-delay: 3s;
+.circles li:nth-child(5) {
+  left: 65%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 0s;
 }
 
-.circles li:nth-child(7){
-    left: 35%;
-    width: 150px;
-    height: 150px;
-    animation-delay: 7s;
+.circles li:nth-child(6) {
+  left: 75%;
+  width: 110px;
+  height: 110px;
+  animation-delay: 3s;
 }
 
-.circles li:nth-child(8){
-    left: 50%;
-    width: 25px;
-    height: 25px;
-    animation-delay: 15s;
-    animation-duration: 45s;
+.circles li:nth-child(7) {
+  left: 35%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 7s;
 }
 
-.circles li:nth-child(9){
-    left: 20%;
-    width: 15px;
-    height: 15px;
-    animation-delay: 2s;
-    animation-duration: 35s;
+.circles li:nth-child(8) {
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  animation-delay: 15s;
+  animation-duration: 45s;
 }
 
-.circles li:nth-child(10){
-    left: 85%;
-    width: 150px;
-    height: 150px;
-    animation-delay: 0s;
-    animation-duration: 11s;
+.circles li:nth-child(9) {
+  left: 20%;
+  width: 15px;
+  height: 15px;
+  animation-delay: 2s;
+  animation-duration: 35s;
 }
 
-
+.circles li:nth-child(10) {
+  left: 85%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 0s;
+  animation-duration: 11s;
+}
 
 @keyframes animate {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+    border-radius: 0;
+  }
 
-    0%{
-        transform: translateY(0) rotate(0deg);
-        opacity: 1;
-        border-radius: 0;
-    }
-
-    100%{
-        transform: translateY(-1000px) rotate(720deg);
-        opacity: 0;
-        border-radius: 50%;
-    }
-
+  100% {
+    transform: translateY(-1000px) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%;
+  }
 }
 
-.vision
-{
-    background-image: url("bg4.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.vision {
+  background-image: url("bg4.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.vision-logo
-{
-    text-align: center;
-    padding : 20px;
-    font-size: 4.8vw;
-    font-family:"sofia";
-    color: white;
-    border-bottom: 2px solid white;
-    border-top: 2px solid white;
+.vision-logo {
+  text-align: center;
+  padding: 20px;
+  font-size: 4.8vw;
+  font-family: "sofia";
+  color: white;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
 }
 
-.vision-text
-{
-    font-size: 2.8vw;
-    color:floralwhite;
-    font-family: "Advent Pro";
-    padding : 20px;
+.vision-text {
+  font-size: 2.8vw;
+  color: floralwhite;
+  font-family: "Advent Pro";
+  padding: 20px;
 }
 
-.quote{
-    font-size:2.8vw;
-    text-align: center;
-    transition: 1s;
+.quote {
+  font-size: 2.8vw;
+  text-align: center;
+  transition: 1s;
 }
-.box
-{
-    box-shadow: rgba(0,0,0,0.8) 0px 5px 15px;
-    width: 20vw;
-    height: 20vw;
-    border-radius: 15px;
-}
-
-.courses
-{
-    display: grid;
-    margin: auto;
-    grid-template-columns: repeat(auto-fill,minmax(20vw,1fr));
-    grid-gap:20px;
-    padding: 20px;
-    border-top: 2px solid white;
-    background-image: url("bg3.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    
+.box {
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px;
+  width: 20vw;
+  height: 20vw;
+  border-radius: 15px;
 }
 
-.cr
-{
-    font-size: 3vw;
-    padding : 10px;
-    text-align: center;
-    margin : 10px;
-    background:url("bg5.jpg");
-    background-size: cover;
-    color: White;
-    justify-self: center;
-    
+.courses {
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(auto-fill, minmax(20vw, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+  border-top: 2px solid white;
+  background-image: url("bg3.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.cr:hover
-{
-    transition: 0.5s;
-    transform: scale(1.1);
+.cr {
+  font-size: 3vw;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  background: url("bg5.jpg");
+  background-size: cover;
+  color: White;
+  justify-self: center;
 }
 
-.cover
-{
-    display: grid;
-    grid-template-columns: 25% auto;
-    border-top : 2px solid white;
+.cr:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
 }
 
-.cover-logo
-{
-    font-size:3.5vw;
-    text-align: center;
-    padding-top: 50%;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-family: "Advent Pro";
-    background: url("bg7.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: black;
-    grid-row-start: 1;
-    grid-row-end: span 2;
+.cover {
+  display: grid;
+  grid-template-columns: 25% auto;
+  border-top: 2px solid white;
+}
+
+.cover-logo {
+  font-size: 3.5vw;
+  text-align: center;
+  padding-top: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Advent Pro";
+  background: url("bg7.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: black;
+  grid-row-start: 1;
+  grid-row-end: span 2;
 }
 
 .login-form {
-  position:relative;
+  position: relative;
   background-color: #f2f2f2;
   padding: 20px 0 30px 0;
-  font-family:"Advent Pro";
+  font-family: "Advent Pro";
 }
-
 
 input,
 .btn {
@@ -311,17 +295,18 @@ input,
   text-decoration: none; /* remove underline from anchors */
 }
 
-input:hover,.btn:hover {
+input:hover,
+.btn:hover {
   opacity: 1;
 }
 
 .fb {
-  background-color: #3B5998;
+  background-color: #3b5998;
   color: white;
 }
 
 .twitter {
-  background-color: #55ACEE;
+  background-color: #55acee;
   color: white;
 }
 
@@ -331,13 +316,13 @@ input:hover,.btn:hover {
 }
 
 /* style the submit button */
-input[type=submit] {
-  background-color: #4CAF50;
+input[type="submit"] {
+  background-color: #4caf50;
   color: white;
   cursor: pointer;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: #45a049;
 }
 
@@ -379,26 +364,27 @@ input[type=submit]:hover {
 /* hide some text on medium and large screens */
 .hide-md-lg {
   display: none;
-    padding-bottom: 50px;
-    margin-top: -50px;
-    margin-bottom: -40px;
+  padding-bottom: 50px;
+  margin-top: -50px;
+  margin-bottom: -40px;
 }
 
 /* bottom container */
-.bottom-container{
+.bottom-container {
   text-align: center;
   background-color: #666;
-    grid-column-start: 2;
+  grid-column-start: 2;
 }
 
 /* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 650px) {
-    .btn,input{
-        width : 50%;
-        font-size: 2.56vw;
-        padding: 10px;
-        margin : 3px 0px;
-    }
+  .btn,
+  input {
+    width: 50%;
+    font-size: 2.56vw;
+    padding: 10px;
+    margin: 3px 0px;
+  }
   .col {
     width: 100%;
     margin-top: 0;
@@ -411,61 +397,56 @@ input[type=submit]:hover {
   .hide-md-lg {
     display: block;
     text-align: center;
-    margin-top:20px;
-    font-size: 3.2vw;  
+    margin-top: 20px;
+    font-size: 3.2vw;
   }
-    .cover-logo
-    {
-        padding-top : 80%;
-        font-size:4vw;
-    }
+  .cover-logo {
+    padding-top: 80%;
+    font-size: 4vw;
+  }
 }
 
-.footer
-{
-    display: grid;
-    background-color: #243E8E;
-    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
-    grid-gap:10px;
-    border-top: 2px solid white;
+.footer {
+  display: grid;
+  background-color: #243e8e;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 10px;
+  border-top: 2px solid white;
 }
 
-.footer-logo-icon
-{
-    justify-self:center;
+.footer-logo-icon {
+  justify-self: center;
   background-color: white;
   color: black;
-    text-align: center;
+  text-align: center;
   font-size: 4.5vw;
   font-weight: bold;
-    margin : 10px;
+  margin: 10px;
   padding: 10px;
-    border-radius : 5px;
-  mix-blend-mode: screen; 
+  border-radius: 5px;
+  mix-blend-mode: screen;
 }
 
-.footer-logo-text
-{
-    color: white;
-    font-size: 2vw;
-    font-family: sans-serif;
-    margin: 10px;
-    border-bottom : 2px solid #243e4f;
-    display: table-cell;
-    padding: 10px;
-    opacity: 0.7;
+.footer-logo-text {
+  color: white;
+  font-size: 2vw;
+  font-family: sans-serif;
+  margin: 10px;
+  border-bottom: 2px solid #243e4f;
+  display: table-cell;
+  padding: 10px;
+  opacity: 0.7;
 }
 
-.footer-icons
-{
-    margin: 10px;
-    text-align: center;
+.footer-icons {
+  margin: 10px;
+  text-align: center;
 }
 .fa {
-    margin: 5px;
+  margin: 5px;
   padding: 10px;
   width: 20px;
-  border-radius:50%;
+  border-radius: 50%;
   text-align: center;
   text-decoration: none;
 }
@@ -475,12 +456,12 @@ input[type=submit]:hover {
 }
 
 .fa-facebook {
-  background: #3B5998;
+  background: #3b5998;
   color: white;
 }
 
 .fa-twitter {
-  background: #55ACEE;
+  background: #55acee;
   color: white;
 }
 .fa-youtube {
@@ -492,25 +473,23 @@ input[type=submit]:hover {
   color: white;
 }
 
-.footer-text
-{
-    text-align: center;
-    margin:20px;
-    font-size:2.5vw;
-    font-family:"Advent Pro";
-    color: white;
-    font-weight: bold;
+.footer-text {
+  text-align: center;
+  margin: 20px;
+  font-size: 2.5vw;
+  font-family: "Advent Pro";
+  color: white;
+  font-weight: bold;
 }
 
-li
-{
-    list-style: none;
-    margin: 10px;
-    font-size: 2.5vw;
-    font-weight: 100;
+li {
+  list-style: none;
+  margin: 10px;
+  font-size: 2.5vw;
+  font-weight: 100;
 }
 
-li:hover{
-    opacity: 0.7;
-    cursor:pointer;
+li:hover {
+  opacity: 0.7;
+  cursor: pointer;
 }
